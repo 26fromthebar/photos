@@ -1,0 +1,8 @@
+<section class="section">
+  <h1 class="title">Photo fetching app</h1>
+  <button (click)="showNewPhoto()" class="btn">New Photo</button>
+  <div class="img-wrapper">
+    <img [src]="photo.urls.regular" [alt]="photo.alt_description" />
+    <p>{{ photo.description }}</p>
+  </div>
+</section>
